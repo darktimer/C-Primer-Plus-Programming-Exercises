@@ -8,7 +8,7 @@ int main(void) {
 	
 	printf("This copy of \"%s\" sells for $%.2f.",BOOK,cost);
 	printf("\n");
-	printf("That is %d%% of list.",(int)percent);
+	printf("That is %.0f%% of list.",percent);
 	
 	return 0;
 }
