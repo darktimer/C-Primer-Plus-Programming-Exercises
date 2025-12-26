@@ -4,7 +4,7 @@
 int main(void) {
 	printf("enter mile and gallon:");
 	double mile, gallon;
-	scanf_s("%lf %lf", &mile, &gallon);
+	scanf_s("%lf %lf", &mile, &gallon,sizeof(mile),sizeof(gallon));
 	double liters = LITER * gallon, km = KM * mile;
 	double resualt = liters/km;
 
